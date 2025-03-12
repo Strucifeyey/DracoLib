@@ -136,7 +136,7 @@ function Library:ApplyTextStroke(Inst)
     Inst.TextStrokeTransparency = 1;
 
     Library:Create('UIStroke', {
-        Color = Color3.new(0, 0, 0);
+        Color = Color3.new(14, 15, 20);
         Thickness = 0;
         LineJoinMode = Enum.LineJoinMode.Miter;
         Parent = Inst;
@@ -460,7 +460,7 @@ do
         local PickerFrameOuter = Library:Create('Frame', {
             Name = 'Color';
             BackgroundColor3 = Color3.new(1, 1, 1);
-            BorderColor3 = Color3.new(0, 0, 0);
+            BorderColor3 = Color3.new(14, 15, 20);
             Position = UDim2.fromOffset(DisplayFrame.AbsolutePosition.X, DisplayFrame.AbsolutePosition.Y + 18),
             Size = UDim2.fromOffset(230, Info.Transparency and 271 or 253);
             Visible = false;
